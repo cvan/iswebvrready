@@ -42,7 +42,7 @@
         "supported": 0
       },
       "edge": {
-        "supported": 0
+        "supported": 1
       },
       "samsung": {
         "supported": 1
