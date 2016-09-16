@@ -42,7 +42,10 @@
         "supported": 0
       },
       "edge": {
-        "supported": 1
+        "supported": 1,
+        "details": [
+          "In development <a href=\"https://blogs.windows.com/msedgedev/2016/09/09/webvr-in-development-edge/\">(announced on Sep 9, 2016)</a>."
+        ]
       },
       "samsung": {
         "supported": 1
@@ -50,18 +53,19 @@
     },
     {
       "name": "<code>navigator.getVRDisplays</code>",
-      "description": "Namespace for page-side WebVR API. Resolves an array of available <a href=\"https://mozvr.com/webvr-spec/#vrdisplay\"><code>VRDisplay</code>s</a>. <br><br> <a href=\"https://mozvr.com/webvr-spec/#navigator-getvrdisplays-attribute\">Spec</a>. <a href=\"https://toji.github.io/webvr-samples/00-hello-webvr\">Test</a>.",
+      "description": "Namespace for page-side WebVR API. Resolves an array of available <a href=\"https://w3c.github.io/webvr/#vrdisplay\"><code>VRDisplay</code>s</a>. <br><br> <a href=\"https://w3c.github.io/webvr/#navigator-getvrdisplays-attribute\">Spec</a>. <a href=\"https://toji.github.io/webvr-samples/00-hello-webvr\">Test</a>.",
       "chrome": {
-        "supported": 0.5,
+        "supported": 1,
+        "minVersion": "builds",
         "details": [
           "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>."
         ]
       },
       "firefox": {
-        "supported": 0,
-        "minVersion": 27,
+        "supported": 1,
+        "minVersion": 51,
         "details": [
-          "Uses old API interface: <code>navigator.getVRDevices</code>. New builds landing in Nightly end of May."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>."
         ]
       },
       "opera": {
@@ -81,6 +85,64 @@
       },
       "details": [
       ]
+    },
+    {
+      "name": "Oculus Rift support",
+      "description": "Presentation of VR content to the <a href=\"https://www3.oculus.com/rift/\">Oculus Rift</a>.",
+      "chrome": {
+        "supported": 1,
+        "details": [
+          "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>."
+        ]
+      },
+      "firefox": {
+        "supported": 1,
+        "minVersion": 46,
+        "details": [
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>."
+        ]
+      },
+      "opera": {
+        "supported": 0
+      },
+      "safari": {
+        "supported": 0
+      },
+      "edge": {
+        "supported": 0
+      },
+      "samsung": {
+        "supported": 0
+      }
+    },
+    {
+      "name": "HTC Vive support",
+      "description": "Presentation of VR content to the <a href=\"https://www3.oculus.com/rift/\">Oculus Rift</a>.",
+      "chrome": {
+        "supported": 1,
+        "details": [
+          "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>."
+        ]
+      },
+      "firefox": {
+        "supported": 1,
+        "minVersion": 51,
+        "details": [
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Disabled by default. <a href=\"#gamepad-pose\">Gamepad API</a> changes for Vive motion controllers coming in Firefox 53."
+        ]
+      },
+      "opera": {
+        "supported": 0
+      },
+      "safari": {
+        "supported": 0
+      },
+      "edge": {
+        "supported": 0
+      },
+      "samsung": {
+        "supported": 0
+      }
     },
     {
       "name": "Promises",
@@ -112,7 +174,7 @@
     },
     {
       "name": "Gamepad API (<code>navigator.getGamepads</code>)",
-      "description": "Required for VR controllers (e.g., <a href=\"https://www.oculus.com/rift/\">Oculus Remote</a>, <a href=\"https://www.oculus.com/rift/\">Xbox One controller</a>, <a href=\"https://www.htcvive.com/product/\">HTC Vive controllers</a>, etc.). <br><br> <a href=\"https://w3c.github.io/gamepad/\">Spec</a>.",
+      "description": "Required for VR controllers (e.g., <a href=\"https://www3.oculus.com/rift/\">Oculus Remote</a>, <a href=\"https://www3.oculus.com/rift/\">Xbox One controller</a>, <a href=\"https://www.vive.com/us/product/\">HTC Vive controllers</a>, etc.). <br><br> <a href=\"https://w3c.github.io/gamepad/\">Spec</a>.",
       "chrome": {
         "supported": 1,
         "minVersion": 21
@@ -138,13 +200,19 @@
       }
     },
     {
-      "name": "Gamepad Vibration",
-      "description": "Required for vibration motors for controllers. <br><br> <a href=\"https://github.com/w3c/gamepad/issues/19\">Discussion</a>.",
+      "name": "Gamepad Haptics",
+      "description": "Required for vibration motors for controllers. <br><br> <a href=\"https://github.com/w3c/gamepad/issues/19\">Discussion</a>. <a href=\"https://github.com/w3c/gamepad/pull/32\">Pull request</a>.",
       "chrome": {
-        "supported": 0
+        "supported": 0.5,
+        "details": [
+          "Experimental support landed for Gamepad haptics."
+        ]
       },
       "firefox": {
-        "supported": 0
+        "supported": 0,
+        "details": [
+          "Expected to release in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299937\">implementation status</a>)."
+        ]
       },
       "opera": {
         "supported": 0
@@ -160,8 +228,8 @@
       }
     },
     {
-      "name": "Gamepad Pose (<code>GamepadPose</code>, <code>Gamepad#pose</code>)",
-      "description": "Required for haptic feedback for <a href=\"https://en.wikipedia.org/wiki/Six_degrees_of_freedom\">3DoF/6DoF</a> controllers. <br><br> <a href=\"https://lists.w3.org/Archives/Public/public-webapps/2016AprJun/0052.html\">Discussion</a>.",
+      "name": "Gamepad Pose",
+      "description": "Positional tracking for <a href=\"https://en.wikipedia.org/wiki/Six_degrees_of_freedom\">3DoF/6DoF</a> controllers. <br><br> <a href=\"https://lists.w3.org/Archives/Public/public-webapps/2016AprJun/0052.html\">Discussion</a>. <a href=\"https://github.com/w3c/gamepad/pull/32/files\">Pull request</a>.",
       "chrome": {
         "supported": 0.5,
         "details": [
@@ -169,7 +237,10 @@
         ]
       },
       "firefox": {
-        "supported": 0
+        "supported": 0,
+        "details": [
+          "Expected to release in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299932\">implementation status</a>)."
+        ]
       },
       "opera": {
         "supported": 0
@@ -185,8 +256,8 @@
       }
     },
     {
-      "name": "Gamepad Touchpad (<code>GamepadButton#touched</code>)",
-      "description": "Required for detecting touches of touchpads in controllers. <br><br> <a href=\"https://lists.w3.org/Archives/Public/public-webapps/2016AprJun/0052.html\">Discussion</a>.",
+      "name": "Gamepad Touchpad support",
+      "description": "Required for detecting touches of touchpads in controllers. <br><br> <a href=\"https://github.com/w3c/gamepad/issues/34\">Spec Issue</a>.",
       "chrome": {
         "supported": 0.5,
         "details": [
@@ -194,7 +265,10 @@
         ]
       },
       "firefox": {
-        "supported": 0
+        "supported": 0,
+        "details": [
+          "In development."
+        ]
       },
       "opera": {
         "supported": 0

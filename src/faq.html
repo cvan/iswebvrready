@@ -4,77 +4,32 @@
 
 {% block body %}
   <article class="article faq">
-    <h1>When will the old API be deprecated and removed from the browser?</h1>
-    <p>
-      Brandon Jones' Chromium builds have already been <a href="https://drive.google.com/folderview?id=0BzudLt22BqGRbW9WTHMtOWMzNjQ&amp;usp=sharing#list">officially deprecated</a>.
-    </p>
-    <p>
-      For Firefox, until we have a stable implementation of the 1.0 API, the existing WebVR API will continue to function. Once 1.0 API is implemented, the old API will no longer function and you will be required to update content to use the new APIs.
-    </p>
-  </article>
-
-  <article class="article faq">
-    <h1>When will the new API land in Firefox?</h1>
-    <p>
-      We are hoping to land a stable implementation of the 1.0 APIs into Firefox Nightly within the next quarter.   If the API proves stable, it will continue to make its way into Firefox Developer Edition and Firefox Beta in the first half of this year.
-    </p>
-    <p>
-      The plan is to have these APIs available in Stable, but there is no clear date yet on when that will happen.
-    </p>
-  </article>
-
-  <article class="article faq">
-    <h1>Where can I track implementation progress of the new API?</h1>
-    <p>
-      You can track implementation at this Bugzilla bug, and support status on <a href="https://iswebvrready.org/">IsWebVRRready.org</a>.
-    </p>
-  </article>
-
-  <article class="article faq">
-    <h1>Will old WebVR API be available in release channel?</h1>
-    <p>
-      The existing WebVR API is deprecated and only the new 1.0 API is planned to be available.
-    </p>
-  </article>
-
-  <article class="article faq">
-    <h1>Can the new WebVR API be polyfilled?</h1>
+    <h1>Can the WebVR API be polyfilled?</h1>
     <p>
       There are certain features that are possibly only by making changes to the browser platform. The most significant would the ability to traverse links.
     </p>
   </article>
 
   <article class="article faq">
-    <h1>When will link traversal work?</h1>
+    <h1>When and how will link traversal work?</h1>
     <p>
-      Link traversal is planned to be available with the initial release of the 1.0 API implementation.
+      Link traversal is functional in Chromium builds and soon Firefox. Documentation on sample usage is coming soon.
     </p>
   </article>
 
-  <article class="article faq">
-    <h1>When will Firefox support room-scale experiences (like Vive)?</h1>
-    <p>
-      Patches have been made to support HTC Vive, but have not landed into the code-base.  We do not have a clear timeline for when this will be complete.
     </p>
   </article>
 
   <article class="article faq">
     <h1>Is the spec on the standards body track?</h1>
     <p>
-      We have formed a <a href="https://www.w3.org/community/webvr/">W3C Community Group</a>. <a href="https://github.com/MozVR/webvr-spec/issues/16">Standardization of the spec has not begun yet</a>.
-    </p>
-  </article>
-
-  <article class="article faq">
-    <h1>How will link traversal work?</h1>
-    <p>
-      With the 1.0 API, content needs to explicitly request content to be displayed into the headset.  When navigating to another page by changing window.
+      We have formed a <a href="https://www.w3.org/community/webvr/">W3C Community Group</a>, and the spec lives in a <a href="https://github.com/w3c/">W3C repo</a>. <a href="https://github.com/w3c/webvr-spec/issues/16">Standardization of the spec has not begun yet</a>.
     </p>
   </article>
 
   <article class="article faq">
     <h1>Can I use HTML and CSS for WebVR?</h1>
-    <p>This is not currently possible. However, there has been experiments that would enable the copy of DOM element layouts into textures useable in a webGL scene. Though, this will be quite a ways out before we see anything usable by regular web content.</p>
+    <p>This is not currently possible. However, there has been experiments that would enable the copy of DOM element layouts into textures usable in a webGL scene. Though, this will be quite a ways out before we see anything usable by regular web content.</p>
   </article>
 
   <article class="article faq">
