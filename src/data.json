@@ -174,7 +174,7 @@
     },
     {
       "name": "Gamepad API (<code>navigator.getGamepads</code>)",
-      "description": "Required for VR controllers (e.g., <a href=\"https://www3.oculus.com/rift/\">Oculus Remote</a>, <a href=\"https://www3.oculus.com/rift/\">Xbox One controller</a>, <a href=\"https://www.vive.com/us/product/\">HTC Vive controllers</a>, etc.). <br><br> <a href=\"https://w3c.github.io/gamepad/\">Spec</a>.",
+      "description": "Required for VR controllers (e.g., <a href=\"https://www3.oculus.com/rift/\">Oculus Remote</a>, <a href=\"https://www3.oculus.com/rift/\">Xbox One</a>, <a href=\"https://www.vive.com/us/product/\">HTC Vive</a> controllers). <br><br> <a href=\"https://w3c.github.io/gamepad/\">Spec</a>.",
       "chrome": {
         "supported": 1,
         "minVersion": 21
