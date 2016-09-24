@@ -133,7 +133,7 @@
         "supported": 0.5,
         "minVersion": 51,
         "details": [
-          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Disabled by default, but follow <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">these instructions for OpenVR support</a> can be enabled (open `about:config` and set the `dom.vr.openvr.enabled` flag to `true`). <a href=\"#gamepad-extensions\">Gamepad support (Gamepad Extensions)</a> for Vive motion controllers coming in Firefox 53."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">enabled</a>. <br><br> Gamepad support (<a href=\"#gamepad-extensions\">Gamepad Extensions</a>) for Vive motion controllers coming in Firefox 53."
         ]
       },
       "opera": {
