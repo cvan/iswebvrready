@@ -120,7 +120,7 @@
     },
     {
       "name": "HTC Vive support",
-      "description": "Presentation of VR content to the <a href=\"https://www.vive.com/\">HTC Vive</a> headset. <br><br> <a href=\"https://toji.github.io/webvr-samples/05-room-scale.html\">Test</a>.",
+      "description": "Presentation of VR content to the <a href=\"https://www.vive.com/\">HTC Vive</a> headset. <br><br> <a href=\"https://toji.github.io/webvr-samples/05-room-scale.html\">Test (WIP)</a>.",
       "chrome": {
         "icon": "chromium",
         "supported": 0.5,
@@ -218,7 +218,7 @@
         "icon": "firefox-nightly",
         "supported": 0,
         "details": [
-          "In development. Expected to release in Firefox 53 (implementation status"
+          "In development. Expected to release in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299926\">implementation status</a>)."
         ]
       },
       "opera": {
