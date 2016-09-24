@@ -415,6 +415,10 @@ a.wordmark:hover {
   background-image: url(../img/chrome-canary.png);
 }
 
+.icon.chromium {
+  background-image: url(../img/chromium.png);
+}
+
 .icon.firefox {
   background-image: url(../img/firefox.png);
 }
