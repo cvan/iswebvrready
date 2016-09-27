@@ -53,7 +53,7 @@
     },
     {
       "name": "WebVR API (<code>navigator.getVRDisplays</code>)",
-      "description": "Client-side JavaScript API for querying connected VR headsets and periphery. Returns a Promise that resolves an array of available <a href=\"https://w3c.github.io/webvr/#vrdisplay\"><code>VRDisplay</code>s</a>. <br><br> <a href=\"https://w3c.github.io/webvr/#navigator-getvrdisplays-attribute\">Spec</a>. <a href=\"https://toji.github.io/webvr-samples/00-hello-webvr\">Test</a>.",
+      "description": "Client-side JavaScript API for querying connected VR headsets and peripherals. Returns a Promise that resolves an array of available <a href=\"https://w3c.github.io/webvr/#vrdisplay\"><code>VRDisplay</code>s</a>. <br><br> <a href=\"https://w3c.github.io/webvr/#navigator-getvrdisplays-attribute\">Spec</a>. <a href=\"https://toji.github.io/webvr-samples/00-hello-webvr\">Test</a>.",
       "chrome": {
         "icon": "chromium",
         "supported": 0.5,
@@ -102,7 +102,7 @@
         "supported": 1,
         "minVersion": 46,
         "details": [
-          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">enabled</a>. <br><br> Gamepad support is expected to land in Firefox 53 (implementation status: <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260561\">Oculus Remote</a> and <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260558\">Oculus Touch</a> controllers)."
         ]
       },
       "opera": {
@@ -133,7 +133,7 @@
         "supported": 0.5,
         "minVersion": 51,
         "details": [
-          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">enabled</a>. <br><br> Gamepad support (<a href=\"#gamepad-extensions\">Gamepad Extensions</a>) for Vive motion controllers is expected to land in Firefox 53."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">enabled</a>. <br><br> Gamepad support for Vive motion controllers is expected to land in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260558\">implementation status</a>)."
         ]
       },
       "opera": {
@@ -179,7 +179,7 @@
     },
     {
       "name": "Gamepad API (<code>navigator.getGamepads</code>)",
-      "description": "Required for VR controllers (e.g., <a href=\"https://www3.oculus.com/en-us/touch/\">Oculus Remote &amp; Touch</a>, <a href=\"https://www3.oculus.com/rift/\">Xbox One</a>, <a href=\"http://www.vive.com/product/\">HTC Vive</a> controllers). <br><br> <a href=\"https://w3c.github.io/gamepad/\">Spec</a>.",
+      "description": "Required for VR controllers (e.g., <a href=\"https://www3.oculus.com/touch/\">Oculus Remote &amp; Touch</a>, <a href=\"https://www3.oculus.com/rift/\">Xbox One</a>, <a href=\"http://www.vive.com/product/\">HTC Vive</a> controllers). <br><br> <a href=\"https://w3c.github.io/gamepad/\">Spec</a>.",
       "chrome": {
         "supported": 1,
         "minVersion": 21
@@ -218,7 +218,7 @@
         "icon": "firefox-nightly",
         "supported": 0,
         "details": [
-          "In development. Expected to land in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299926\">implementation status</a>)."
+          "In development. Expected to land in Firefox 53 (implementation status: <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1196672\">parent tracking issue</a> for <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260561\">Oculus Remote</a>, <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260558\">Oculus Touch</a>, and <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260558\">HTC Vive</a> controllers)."
         ]
       },
       "opera": {
