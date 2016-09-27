@@ -266,7 +266,7 @@
     },
     {
       "name": "Gamepad Pose",
-      "description": "Positional tracking for <a href=\"https://en.wikipedia.org/wiki/Six_degrees_of_freedom\">3DoF/6DoF</a> controllers. <br><br> <a href=\"https://lists.w3.org/Archives/Public/public-webapps/2016AprJun/0052.html\">Discussion</a>. <a href=\"https://github.com/w3c/gamepad/pull/32/files\">Pull request</a>.",
+      "description": "Positional tracking for <a href=\"https://en.wikipedia.org/wiki/Six_degrees_of_freedom\">3DoF/6DoF</a> controllers. <br><br> <a href=\"https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose\">Spec</a>.",
       "chrome": {
         "icon": "chromium",
         "supported": 0.5,
@@ -296,7 +296,7 @@
     },
     {
       "name": "Gamepad Touchpad support",
-      "description": "Required for detecting touches of touchpads in controllers. <br><br> <a href=\"https://github.com/w3c/gamepad/issues/34\">Spec Issue</a>.",
+      "description": "Required for detecting touches of touchpads in controllers. <br><br> <a href=\"https://github.com/w3c/gamepad/issues/34\">Spec issue</a>.",
       "chrome": {
         "icon": "chromium",
         "supported": 0,
