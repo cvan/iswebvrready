@@ -236,7 +236,7 @@
     },
     {
       "name": "Gamepad Haptics",
-      "description": "Required for vibration motors for controllers. <br><br> <a href=\"https://github.com/w3c/gamepad/issues/19\">Discussion</a>. <a href=\"https://github.com/w3c/gamepad/pull/32\">Pull request</a>.",
+      "description": "Required for vibration motors for controllers. <br><br> <a href=\"https://github.com/w3c/gamepad/issues/19\">Spec issue for vibration/rumble</a>. <a href=\"https://github.com/w3c/gamepad/issues/39\">Spec issue for buffered haptic feedback</a>.",
       "chrome": {
         "icon": "chromium",
         "supported": 0.5,
