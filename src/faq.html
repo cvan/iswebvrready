@@ -81,16 +81,39 @@
   </article>
 
   <article class="article faq">
-    <h1>How do I report issues with WebVR?</h1>
-    <p>For the time being use the following links to view and report issues with WebVR implementations:</p>
-    <ul>
-      <li><a href="https://github.com/toji/chrome-webvr-issues/issues">Chrome Issues</a> (<a href="https://github.com/toji/chrome-webvr-issues/issues/new">file issue</a>)</li>
-      <li><a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=%5Bwebvr%5D">Firefox Issues</a> (<a href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&amp;component=General&amp;status_whiteboard=[webvr]&amp;cc=kgilbert@mozilla.com">file issue</a>)</li>
-    </ul>
+    <h1>How do I use WebVR with <a href="http://www.samsung.com/global/galaxy/gear-vr/">Samsung Gear VR</a>?</h1>
+    <p>If you haven&rsquo;t already, insert your <a href="https://www3.oculus.com/en-us/gear-vr/">Samsung Gear VR-compatible phone</a> into the Gear VR headset. This will download and install the Oculus Home Android app.</p>
+    <p>Experimental WebVR support for <a href="http://www.samsung.com/global/galaxy/gear-vr/">Gear VR</a> can be enabled in the <a href="http://developer.samsung.com/internet#gearvr-overview">
+    Samsung Internet Browser for Gear VR</a> (which can be downloaded from the Oculus Home app). In the Browser, you can enable WebVR support by loading the URL <code>internet://webvr-enable</code> and disable support with the URL <code>internet://webvr-disable</code>.</p>
+    <p>It&rsquo;s worth noting that the Samsung Internet Browser&rsquo;s WebVR performance is actively being worked on to reduce current latency. Expect noticeable improvements soon.</p>
   </article>
 
   <article class="article faq">
-    <h1>How do I use WebVR on Gear VR?</h1>
-    <p>Experimental support can be <a href="http://developer.samsung.com/internet#gearvr-overview">enabled</a> in Samsung Internet for Gear VR, which is available on the Oculus Store.</p>
+    <h1>How do I report issues with WebVR?</h1>
+    <p>For the time being, use the following links to view and report issues with WebVR implementations:</p>
+    <dl>
+      <dt><a href="https://webvr.info/get-chrome/">Chromium</a></dt>
+      <dd>
+        <ul>
+          <li><a href="https://docs.google.com/document/d/1dP9m3WLh2lsBs9jJ9LRwv1l0AtuBQAqGLAV-fUbtz2U/edit">Read release notes</a></li>
+          <li><a href="https://github.com/toji/chrome-webvr-issues/issues">View list of open issues</a></li>
+          <li><a href="https://github.com/toji/chrome-webvr-issues/issues/new">File an issue</a></li>
+        </ul>
+      </dd>
+      <dt><a href="https://nightly.mozilla.org/">Firefox</a></dt>
+      <dd>
+        <ul>
+          <li><a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=%5Bwebvr%5D">View list of open issues</a></li>
+          <li><a href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Core&amp;component=General&amp;status_whiteboard=[webvr]&amp;cc=kgilbert@mozilla.com">File an issue</a></li>
+        </ul>
+      </dd>
+      <dt><a href="http://developer.samsung.com/internet#gearvr-overview">Samsung Internet Browser for Gear VR</a></dt>
+      <dd>
+        <ul>
+          <li><a href="http://developer.samsung.com/internet#gearvr-overview">Read release notes</a></li>
+          <li><a href="https://twitter.com/mkeblx">Tweet at Michael Blix</a> (WebVR engineer, Samsung) to report an issue</li>
+        </ul>
+      </dd>
+    </ul>
   </article>
 {% endblock %}

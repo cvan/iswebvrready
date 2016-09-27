@@ -22,7 +22,7 @@
     },
     {
       "id": "samsung",
-      "name": "Samsung Internet for GearVR"
+      "name": "Samsung Internet Browser for GearVR"
     }
   ],
   "features": [
@@ -53,12 +53,12 @@
     },
     {
       "name": "WebVR API (<code>navigator.getVRDisplays</code>)",
-      "description": "Client-side, Promise-based WebVR API that resolves to an array of available <a href=\"https://w3c.github.io/webvr/#vrdisplay\"><code>VRDisplay</code>s</a>. <br><br> <a href=\"https://w3c.github.io/webvr/#navigator-getvrdisplays-attribute\">Spec</a>. <a href=\"https://toji.github.io/webvr-samples/00-hello-webvr\">Test</a>.",
+      "description": "Client-side JavaScript API for querying connected VR headsets and periphery. Returns a Promise that resolves an array of available <a href=\"https://w3c.github.io/webvr/#vrdisplay\"><code>VRDisplay</code>s</a>. <br><br> <a href=\"https://w3c.github.io/webvr/#navigator-getvrdisplays-attribute\">Spec</a>. <a href=\"https://toji.github.io/webvr-samples/00-hello-webvr\">Test</a>.",
       "chrome": {
         "icon": "chromium",
         "supported": 0.5,
         "details": [
-          "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>. Enable flag for \"Enable VR\" (<code>chrome://flags/#enable-webvr</code>)."
+          "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>. Support is disabled by default (\"Enable VR\" flag toggles support; load <code>chrome://flags/#enable-webvr</code>)."
         ]
       },
       "firefox": {
@@ -81,7 +81,7 @@
       "samsung": {
         "supported": 0.5,
         "details": [
-          "Experimental support can be <a href=\"http://developer.samsung.com/internet#gearvr-overview\">enabled</a>."
+          "Experimental, WIP implementation in <a href=\"http://developer.samsung.com/internet#gearvr-overview\">Samsung Internet Browser for Gear VR</a> can be enabled by loading the URL <code>internet://webvr-enable</code>. (Note: performance is actively being worked on to reduce latency.)"
         ]
       },
       "details": [
@@ -133,7 +133,7 @@
         "supported": 0.5,
         "minVersion": 51,
         "details": [
-          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">enabled</a>. <br><br> Gamepad support (<a href=\"#gamepad-extensions\">Gamepad Extensions</a>) for Vive motion controllers coming in Firefox 53."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">enabled</a>. <br><br> Gamepad support (<a href=\"#gamepad-extensions\">Gamepad Extensions</a>) for Vive motion controllers is expected to land in Firefox 53."
         ]
       },
       "opera": {
@@ -218,7 +218,7 @@
         "icon": "firefox-nightly",
         "supported": 0,
         "details": [
-          "In development. Expected to release in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299926\">implementation status</a>)."
+          "In development. Expected to land in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299926\">implementation status</a>)."
         ]
       },
       "opera": {
@@ -248,7 +248,7 @@
         "icon": "firefox-nightly",
         "supported": 0,
         "details": [
-          "In development. Expected to release in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299937\">implementation status</a>)."
+          "In development. Expected to land in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299937\">implementation status</a>)."
         ]
       },
       "opera": {
@@ -278,7 +278,7 @@
         "icon": "firefox-nightly",
         "supported": 0,
         "details": [
-          "In development. Expected to release in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299932\">implementation status</a>)."
+          "In development. Expected to land in Firefox 53 (<a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1299932\">implementation status</a>)."
         ]
       },
       "opera": {

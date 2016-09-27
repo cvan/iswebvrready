@@ -512,6 +512,14 @@ a.wordmark:hover {
   opacity: 1;
 }
 
+dt {
+  font-weight: 600;
+}
+
+dt {
+  margin-top: 1rem;
+}
+
 @media (min-width: 500px) {
   html {
     font-size: 17px;
