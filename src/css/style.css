@@ -182,13 +182,21 @@ a:active {
   text-decoration: underline;
 }
 
+code,
+pre,
+tt,
+.code,
 .tt {
-  font-family: Andale Mono, monospace;
+  font-family: Consolas, Andale Mono, Monaco, Monaco,Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.wf-ocrbweb-n4-active code,
+.wf-ocrbweb-n4-active pre,
+.wf-ocrbweb-n4-active .code,
 .wf-ocrbweb-n4-active .tt {
-  font-family: OCR-B-web, Andale Mono, monospace;
+  font-family: OCR-B-web, Consolas, Andale Mono, Monaco, Monaco,Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
 .page-title {
   text-align: center;
 }
