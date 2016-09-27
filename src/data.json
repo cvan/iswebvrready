@@ -120,7 +120,7 @@
     },
     {
       "name": "HTC Vive support",
-      "description": "Presentation of VR content to the <a href=\"https://www.vive.com/\">HTC Vive</a> headset. <br><br> <a href=\"https://toji.github.io/webvr-samples/05-room-scale.html\">Test (WIP)</a>.",
+      "description": "Presentation of VR content to the <a href=\"https://www.vive.com/\">HTC Vive</a> headset. <br><br> <a href=\"https://toji.github.io/webvr-samples/05-room-scale.html\">Test</a>.",
       "chrome": {
         "icon": "chromium",
         "supported": 0.5,
