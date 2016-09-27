@@ -1,0 +1,117 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>{% block title %}{% endblock %}</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 14px;
+  }
+  body {
+    font: 1rem/1.3 Consolas, Andale Mono, Monaco, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+</style>
+<script>
+  window.addEventListener('message', function (e) {
+    e.data
+  });
+  var oldAnavigator.getVRDevices &&
+  var supportData = {
+    old_api: !!(navigator.getVRDevices && navigator.getVRDisplays),
+    new_api: !!navigator.getVRDisplays,
+    displays: [],
+    headsets: {
+      connected: {
+        cardboard: null,
+        daydream: null,
+        gearvr: null,
+        oculus: null,
+        vive: null
+      },
+      previously_connected: {
+        cardboard: null,
+        daydream: null,
+        gearvr: null,
+        oculus: null,
+        vive: null
+      }
+    },
+    browsers: {
+      using: {
+        chrome: null,
+        chromium: null,
+        firefox: null,
+        'firefox-nightly': null,
+        opera: null,
+        safari: null,
+        webkit: null,
+        'webkit-nightly': null,
+        'samsung-internet': null
+      },
+      previously_using: {
+        chrome: null,
+        chromium: null,
+        firefox: null,
+        'firefox-nightly': null,
+        opera: null,
+        safari: null,
+        webkit: null,
+        'webkit-nightly': null,
+        'samsung-internet': null
+      },
+    },
+    platforms: {
+      using: {
+        windows: null,
+        mac: null,
+        linux: null,
+        chromeos: null,
+        ios: null,
+        android: null,
+        firefoxos: null
+      },
+      previously_using: {
+        windows: null,
+        mac: null,
+        linux: null,
+        chromeos: null,
+        ios: null,
+        android: null,
+        firefoxos: null
+      },
+    }
+    instructions_last_read: {
+      cardboard_chrome_android
+      cardboard_chrome_ios
+      cardboard_firefox_android
+      cardboard_firefox_firefoxos
+
+      daydream_chrome_android
+
+      gearvr_samsung-internet_android
+
+      oculus_chrome_windows
+      oculus_firefox_windows
+
+      oculus_chrome_windows
+      oculus_firefox_windows
+    }
+  };
+  window.addEventListener('load', function () {
+    navigator.getVRDisplays().then(function (displays) {
+      supportData.displays = displays;
+      displays.forEach(function () {
+
+      })
+    });
+    window.top.postMessage('data', {
+    });
+  });
+  <!-- Add GA analytics. -->
+  <!-- Add headset, browser, OS detection. -->
+</script>
+<main class="main" id="main">
+{% block body %}{% endblock %}
+</main>
