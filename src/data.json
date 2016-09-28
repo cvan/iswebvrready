@@ -323,6 +323,45 @@
       "samsung": {
         "supported": 0
       }
+    },
+    {
+      "name": "Web Speech API",
+      "description": "Required for text input without a keyboard in VR. Spec: <a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Web Speech API</a>",
+      "chrome": {
+        "icon": "chromium",
+        "supported": 0.5,
+        "details": [
+          "supported since Chrome 53 with prefix 'webkit', some attributes missing"
+        ]
+      },
+      "firefox": {
+        "icon": "firefox-nightly",
+        "supported": 0.5,
+        "details": [
+          "supported, but disabled by default. Change in about:config using the 'media.webspeech.recognition.enabled' flag."
+        ]
+      },
+      "opera": {
+        "supported": 0.5,
+		"details": [
+		  "supported since Opera 39 with prefix 'webkit', some attributes missing"
+		]
+      },
+      "safari": {
+        "supported": 0
+      },
+      "edge": {
+        "supported": 0.5,
+		"details": [
+		  "input is under development, synthesis is supported starting with build 14316"
+		]
+      },
+      "samsung": {
+        "supported": 0,
+		"details": [
+		  "<a href=\"http://developer.samsung.com/internet#gearvr-overview\">appears</a> to have some proprietary voice input mechanism and on-screen keyboard."
+		]
+      }
     }
   ]
 }
