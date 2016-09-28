@@ -353,7 +353,7 @@
       "samsung": {
         "supported": 1,
         "details": [
-          "Fully supported. See <a href=\"http://developer.samsung.com/internet#gearvr-overview\">support info.</a>"
+          "Fully supported. See <a href=\"http://developer.samsung.com/internet#gearvr-overview\">support info</a>."
         ]
       }
     }
