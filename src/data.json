@@ -326,17 +326,15 @@
     },
     {
       "name": "Web Speech API",
-      "description": "Required for text input without a keyboard in VR. <br><br><a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Spec</a>.",
+      "description": "Entails <code>Speech Recognition API</code> and <code>Speech Synthesis API</code>. No keyboards in VR!<br><br><a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Spec</a>. <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API\">Docs</a>.",
       "chrome": {
-        "icon": "chromium",
-        "supported": 0.5,
-        "minVersion": 49,
+        "supported": 1,
+        "minVersion": 25,
         "details": [
-          "requires prefix <code>webkit</code>, some attributes missing"
+          "requires <code>webkit</code> prefix, some attributes missing. See <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Developer-Notes:-Chromium#what-is-chromium-vs-chrome\">notes on Chromium</a>"
         ]
       },
       "firefox": {
-        "icon": "firefox-nightly",
         "supported": 0.5,
         "minVersion": 47,
         "details": [
@@ -345,9 +343,9 @@
       },
       "opera": {
         "supported": 0.5,
-        "minVersion": 39,
+        "minVersion": 27,
 		"details": [
-		  "requires prefix <code>webkit</code>, some attributes missing"
+		  "requires <code>webkit</code> prefix, some attributes missing"
 		]
       },
       "safari": {
