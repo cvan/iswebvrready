@@ -342,9 +342,9 @@
       "safari": {
         "supported": 1,
         "minVersion": 9.1,
-		"details": [
-		  "requires <code>webkit</code> prefix"
-		]
+        "details": [
+          "requires <code>webkit</code> prefix"
+        ]
       },
       "edge": {
         "supported": 1,
@@ -352,9 +352,9 @@
       },
       "samsung": {
         "supported": 1,
-		"details": [
-		  "<a href=\"http://developer.samsung.com/internet#gearvr-overview\">source</a>"
-		]
+        "details": [
+          "<a href=\"http://developer.samsung.com/internet#gearvr-overview\">source</a>"
+        ]
       }
     }
   ]
