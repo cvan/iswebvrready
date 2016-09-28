@@ -326,7 +326,7 @@
     },
     {
       "name": "Web Audio API",
-      "description": "positional audio is essential for VR.<br><br><a href=\"https://webaudio.github.io/web-audio-api/#Spatialization\">Spec</a>.",
+      "description": "Positional audio is essential for VR.<br><br><a href=\"https://webaudio.github.io/web-audio-api/#Spatialization\">Spec</a>.",
       "chrome": {
         "supported": 1,
         "minVersion": 49
