@@ -362,6 +362,41 @@
 		  "<a href=\"http://developer.samsung.com/internet#gearvr-overview\">appears</a> to have some proprietary voice input mechanism and on-screen keyboard."
 		]
       }
+    },
+    {
+      "name": "Web Audio API for 3D audio",
+      "description": "positional audio, <a href=\"https://webaudio.github.io/web-audio-api/#Spatialization\">part of the Web Audio API</a>, is essential for VR",
+      "chrome": {
+        "icon": "chromium",
+        "supported": 1,
+        "minVersion": 49
+      },
+      "firefox": {
+        "icon": "firefox-nightly",
+        "supported": 1,
+        "minVersion": 47
+      },
+      "opera": {
+        "supported": 1,
+        "minVersion": 39
+      },
+      "safari": {
+        "supported": 1,
+        "minVersion": 9.1,
+		"details": [
+		  "requires 'webkit' prefix"
+		]
+      },
+      "edge": {
+        "supported": 1,
+        "minVersion": 13
+      },
+      "samsung": {
+        "supported": 1,
+		"details": [
+		  "<a href=\"http://developer.samsung.com/internet#gearvr-overview\">source</a>"
+		]
+      }
     }
   ]
 }
