@@ -361,9 +361,9 @@
         ]
       },
       "samsung": {
-        "supported": 0,
+        "supported": 1,
 		"details": [
-		  "<a href=\"http://developer.samsung.com/internet#gearvr-overview\">Appears</a> to have some proprietary voice input mechanism and on-screen keyboard."
+		  "Also has (proprietary) on-screen keyboard for text entry."
 		]
       }
     },
@@ -402,7 +402,10 @@
         ]
       },
       "samsung": {
-        "supported": 0
+        "supported": 0,
+        "details": [
+          "In development. A new release due in Q1/2017 will be based on Chrome 53 and support voice synthesis."
+        ]
       }
     }
   ]
