@@ -58,7 +58,7 @@
         "icon": "chromium",
         "supported": 0.5,
         "details": [
-          "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>. Support is disabled by default (\"Enable VR\" flag toggles support; load <code>chrome://flags/#enable-webvr</code>)."
+          "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>. Support is disabled by default (\"Enable VR\" flag toggles support; load <code>chrome://flags/#enable-webvr</code> and load <code>chrome://flags/#enable-gamepad-extensions</code>). Read <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Instructions:-Chromium\">Chromium instructions</a>."
         ]
       },
       "firefox": {
@@ -66,7 +66,7 @@
         "supported": 1,
         "minVersion": 51,
         "details": [
-          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Read <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Instructions:-Firefox-Nightly\">Firefox Nightly instructions</a>."
         ]
       },
       "opera": {
@@ -102,7 +102,7 @@
         "supported": 1,
         "minVersion": 46,
         "details": [
-          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">enabled</a>. <br><br> Gamepad support is expected to land in Firefox 53 (implementation status: <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260561\">Oculus Remote</a> and <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260558\">Oculus Touch</a> controllers)."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Instructions:-Firefox-Nightly-for-Oculus-Rift-on-Windows/\">enabled</a>. <br><br> Gamepad support is expected to land in Firefox 53 (implementation status: <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260561\">Oculus Remote</a> and <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260558\">Oculus Touch</a> controllers)."
         ]
       },
       "opera": {
