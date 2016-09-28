@@ -329,15 +329,15 @@
       "description": "Positional audio is essential for VR.<br><br><a href=\"https://webaudio.github.io/web-audio-api/#Spatialization\">Spec</a>.",
       "chrome": {
         "supported": 1,
-        "minVersion": 49
+        "minVersion": 34
       },
       "firefox": {
         "supported": 1,
-        "minVersion": 47
+        "minVersion": 25
       },
       "opera": {
         "supported": 1,
-        "minVersion": 39
+        "minVersion": 22
       },
       "safari": {
         "supported": 1,
@@ -348,7 +348,7 @@
       },
       "edge": {
         "supported": 1,
-        "minVersion": 13
+        "minVersion": 12
       },
       "samsung": {
         "supported": 1,
