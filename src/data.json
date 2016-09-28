@@ -326,25 +326,28 @@
     },
     {
       "name": "Web Speech API",
-      "description": "Required for text input without a keyboard in VR. Spec: <a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Web Speech API</a>",
+      "description": "Required for text input without a keyboard in VR. <br><br><a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Spec</a>.",
       "chrome": {
         "icon": "chromium",
         "supported": 0.5,
+        "minVersion": 49,
         "details": [
-          "supported since Chrome 53 with prefix 'webkit', some attributes missing"
+          "requires prefix <code>webkit</code>, some attributes missing"
         ]
       },
       "firefox": {
         "icon": "firefox-nightly",
         "supported": 0.5,
+        "minVersion": 47,
         "details": [
-          "supported, but disabled by default. Change in about:config using the 'media.webspeech.recognition.enabled' flag."
+          "Must be enabled under <code>about:config</code> using the <code>media.webspeech.recognition.enabled</code> flag."
         ]
       },
       "opera": {
         "supported": 0.5,
+        "minVersion": 39,
 		"details": [
-		  "supported since Opera 39 with prefix 'webkit', some attributes missing"
+		  "requires prefix <code>webkit</code>, some attributes missing"
 		]
       },
       "safari": {
@@ -352,8 +355,9 @@
       },
       "edge": {
         "supported": 0.5,
+        "minVersion": 14,
 		"details": [
-		  "input is under development, synthesis is supported starting with build 14316"
+		  "input is under development, synthesis supported since build 14316"
 		]
       },
       "samsung": {
