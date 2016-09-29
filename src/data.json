@@ -326,7 +326,7 @@
     },
     {
       "name": "Web Audio API",
-      "description": "Positional audio is essential for VR.<br><br><a href=\"https://webaudio.github.io/web-audio-api/#Spatialization\">Spec</a>.",
+      "description": "Enables manipulation of audio, ability to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (e.g. panning) etc.<br><br><a href=\"https://webaudio.github.io/web-audio-api/\">Spec</a>.",
       "chrome": {
         "supported": 1,
         "minVersion": 34
