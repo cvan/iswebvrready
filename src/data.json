@@ -58,7 +58,7 @@
         "icon": "chromium",
         "supported": 0.5,
         "details": [
-          "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>. Support is disabled by default (\"Enable VR\" flag toggles support; load <code>chrome://flags/#enable-webvr</code>)."
+          "Supported in <a href=\"https://webvr.info/get-chrome/\">experimental builds</a>. Support is disabled by default (\"Enable VR\" flag toggles support; load <code>chrome://flags/#enable-webvr</code> and load <code>chrome://flags/#enable-gamepad-extensions</code>). Read <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Instructions:-Chromium\">Chromium instructions</a>."
         ]
       },
       "firefox": {
@@ -66,7 +66,7 @@
         "supported": 1,
         "minVersion": 51,
         "details": [
-          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Read <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Instructions:-Firefox-Nightly\">Firefox Nightly instructions</a>."
         ]
       },
       "opera": {
@@ -102,7 +102,7 @@
         "supported": 1,
         "minVersion": 46,
         "details": [
-          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://blog.mozvr.com/experimental-htc-vive-support-in-firefox-nightly/\">enabled</a>. <br><br> Gamepad support is expected to land in Firefox 53 (implementation status: <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260561\">Oculus Remote</a> and <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260558\">Oculus Touch</a> controllers)."
+          "Supported in <a href=\"https://nightly.mozilla.org/\">Firefox Nightly</a>. Experimental support can be <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Instructions:-Firefox-Nightly-for-Oculus-Rift-on-Windows/\">enabled</a>. <br><br> Gamepad support is expected to land in Firefox 53 (implementation status: <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260561\">Oculus Remote</a> and <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=1260558\">Oculus Touch</a> controllers)."
         ]
       },
       "opera": {
@@ -322,6 +322,39 @@
       },
       "samsung": {
         "supported": 0
+      }
+    },
+    {
+      "name": "Web Audio API",
+      "description": "Enables manipulation of audio, ability to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (e.g. panning) etc.<br><br><a href=\"https://webaudio.github.io/web-audio-api/\">Spec</a>.",
+      "chrome": {
+        "supported": 1,
+        "minVersion": 34
+      },
+      "firefox": {
+        "supported": 1,
+        "minVersion": 25
+      },
+      "opera": {
+        "supported": 1,
+        "minVersion": 22
+      },
+      "safari": {
+        "supported": 1,
+        "minVersion": 9.1,
+        "details": [
+          "Requires <code>-webkit</code> prefix. Known issue: <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/AudioContext/createMediaElementSource\"><code>createMediaElementSource</code></a> <a href=\"https://bugs.webkit.org/show_bug.cgi?id=125503#c3\">is currently unsupported in WebKit/Safari</a>."
+        ]
+      },
+      "edge": {
+        "supported": 1,
+        "minVersion": 12
+      },
+      "samsung": {
+        "supported": 1,
+        "details": [
+          "Fully supported. See <a href=\"http://developer.samsung.com/internet#gearvr-overview\">support info</a>."
+        ]
       }
     },
     {
