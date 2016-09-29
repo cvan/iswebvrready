@@ -325,13 +325,13 @@
       }
     },
     {
-      "name": "Web Speech API (input)",
-      "description": "<code>Speech Recognition API</code>. No keyboards in VR!<br><br><a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Spec</a>. <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API\">Docs</a>.",
+      "name": "Web Speech API (speech recognition)",
+      "description": "The Speech Recognition part of the API provides speech-input features. No keyboards in VR!<br><br><a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Spec</a>. <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API\">Docs</a>.",
       "chrome": {
         "supported": 1,
         "minVersion": 25,
         "details": [
-          "Requires <code>webkit</code> prefix, some attributes missing. See <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Developer-Notes:-Chromium#what-is-chromium-vs-chrome\">notes on Chromium</a>."
+          "Requires <code>-webkit</code> prefix, some attributes missing. See <a href=\"https://github.com/Web-VR/iswebvrready/wiki/Developer-Notes:-Chromium#what-is-chromium-vs-chrome\">notes on Chromium</a>."
         ]
       },
       "firefox": {
@@ -345,7 +345,7 @@
         "supported": 0.5,
         "minVersion": 27,
         "details": [
-          "Requires <code>webkit</code> prefix, some attributes missing."
+          "Requires <code>-webkit</code> prefix; some attributes missing."
         ]
       },
       "safari": {
@@ -357,19 +357,19 @@
       "edge": {
         "supported": 0,
         "details": [
-          "<a href=\"https://dev.modern.ie/platform/status/webspeechapiinput\">In development</a>."
+          "<a href=\"https://developer.microsoft.com/microsoft-edge/platform/status/webspeechapiinput/\">In development</a>."
         ]
       },
       "samsung": {
         "supported": 1,
-		"details": [
-		  "Also has (proprietary) on-screen keyboard for text entry."
-		]
+        "details": [
+          "Also has (proprietary) on-screen keyboard for text entry."
+        ]
       }
     },
     {
-      "name": "Web Speech API (synthesis)",
-      "description": "<code>Speech Synthesis API</code>.<br><br><a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Spec</a>. <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API\">Docs</a>.",
+      "name": "Web Speech API (speech synthesis)",
+      "description": "The Speech Synthesis part of this API provides text-to-speech output features.<br><br><a href=\"https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html\">Spec</a>. <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API\">Docs</a>.",
       "chrome": {
         "supported": 1,
         "minVersion": 33
@@ -385,7 +385,7 @@
         "supported": 0.5,
         "minVersion": 27,
         "details": [
-          "Requires <code>webkit</code> prefix, some attributes missing."
+          "Requires <code>-webkit</code> prefix; some attributes missing."
         ]
       },
       "safari": {
@@ -398,13 +398,13 @@
         "supported": 1,
         "minVersion": 14,
         "details": [
-          "<a href=\"https://developer.microsoft.com/en-us/microsoft-edge/platform/status/webspeechapisynthesis/\">Supported since Edge build 14316</a>."
+          "<a href=\"https://developer.microsoft.com/microsoft-edge/platform/status/webspeechapisynthesis/\">Supported since Edge build 14316</a>."
         ]
       },
       "samsung": {
         "supported": 0,
         "details": [
-          "In development. A new release due in Q1/2017 will be based on Chrome 53 and support voice synthesis."
+          "In development. A new release is due in Q1/2017; it will be based on Chrome m53 and support speech synthesis."
         ]
       }
     }
