@@ -150,34 +150,6 @@
       }
     },
     {
-      "name": "Promises",
-      "description": "Not specific to WebVR but required by WebVR. <br><br> <a href=\"https://people.mozilla.org/~jorendorff/es6-draft.html#sec-promise-objects\">Spec</a>.",
-      "chrome": {
-        "supported": 1,
-        "minVersion": 36
-      },
-      "firefox": {
-        "supported": 1,
-        "minVersion": 29
-      },
-      "opera": {
-        "supported": 1,
-        "minVersion": 23
-      },
-      "safari": {
-        "supported": 1,
-        "minVersion": 9
-      },
-      "edge": {
-        "supported": 1,
-        "minVersion": 13
-      },
-      "samsung": {
-        "supported": 1,
-        "minVersion": 4
-      }
-    },
-    {
       "name": "Gamepad API (<code>navigator.getGamepads</code>)",
       "description": "Required for VR controllers (e.g., <a href=\"https://www3.oculus.com/touch/\">Oculus Remote &amp; Touch</a>, <a href=\"https://www3.oculus.com/rift/\">Xbox One</a>, <a href=\"http://www.vive.com/product/\">HTC Vive</a> controllers). <br><br> <a href=\"https://w3c.github.io/gamepad/\">Spec</a>.",
       "chrome": {
