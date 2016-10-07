@@ -1,185 +1,56 @@
-/*
-blue: rgb(164,217,240)
-pink: rgb(240,149,177)
-orange: rgb(235,188,166)
-green: rgb(97,211,182)
-*/
-
-@font-face {
-  font-family: OCR-B-web;
-  src: url('../fonts/OCR-B-regular-web.eot');
-  src: url('../fonts/OCR-B-regular-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/OCR-B-regular-web.svg#ocrbregular') format('svg'),
-       url('../fonts/OCR-B-regular-web.woff') format('woff'),
-       url('../fonts/OCR-B-regular-web.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-ultralight-web.eot');
-  src: url('../fonts/klima-ultralight-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-ultralight-web.svg#klimaultralight') format('svg'),
-       url('../fonts/klima-ultralight-web.woff2') format('woff2'),
-       url('../fonts/klima-ultralight-web.woff') format('woff'),
-       url('../fonts/klima-ultralight-web.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-ultralight-italic-web.eot');
-  src: url('../fonts/klima-ultralight-italic-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-ultralight-italic-web.svg#klimaultralight_italic') format('svg'),
-       url('../fonts/klima-ultralight-italic-web.woff2') format('woff2'),
-       url('../fonts/klima-ultralight-italic-web.woff') format('woff'),
-       url('../fonts/klima-ultralight-italic-web.ttf') format('truetype');
-  font-weight: 100;
-  font-style: italic;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-light-web.eot');
-  src: url('../fonts/klima-light-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-light-web.svg#klimalight') format('svg'),
-       url('../fonts/klima-light-web.woff2') format('woff2'),
-       url('../fonts/klima-light-web.woff') format('woff'),
-       url('../fonts/klima-light-web.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-light-italic-web.eot');
-  src: url('../fonts/klima-light-italic-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-light-italic-web.svg#klimalight_italic') format('svg'),
-       url('../fonts/klima-light-italic-web.woff2') format('woff2'),
-       url('../fonts/klima-light-italic-web.woff') format('woff'),
-       url('../fonts/klima-light-italic-web.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-regular-web.eot');
-  src: url('../fonts/klima-regular-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-regular-web.svg#klimaregular') format('svg'),
-       url('../fonts/klima-regular-web.woff2') format('woff2'),
-       url('../fonts/klima-regular-web.woff') format('woff'),
-  url('../fonts/klima-regular-web.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-regular-italic-web.eot');
-  src: url('../fonts/klima-regular-italic-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-regular-italic-web.svg#klimaregular_italic') format('svg'),
-       url('../fonts/klima-regular-italic-web.woff2') format('woff2'),
-       url('../fonts/klima-regular-italic-web.woff') format('woff'),
-  url('../fonts/klima-regular-italic-web.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-medium-web.eot');
-  src: url('../fonts/klima-medium-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-medium-web.svg#klimamedium') format('svg'),
-       url('../fonts/klima-medium-web.woff2') format('woff2'),
-       url('../fonts/klima-medium-web.woff') format('woff'),
-       url('../fonts/klima-medium-web.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-medium-italic-web.eot');
-  src: url('../fonts/klima-medium-italic-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-medium-italic-web.svg#klimamedium_italic') format('svg'),
-       url('../fonts/klima-medium-italic-web.woff2') format('woff2'),
-       url('../fonts/klima-medium-italic-web.woff') format('woff'),
-       url('../fonts/klima-medium-italic-web.ttf') format('truetype');
-  font-weight: 600;
-  font-style: italic;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-bold-web.eot');
-  src: url('../fonts/klima-bold-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-bold-web.svg#klimabold') format('svg'),
-       url('../fonts/klima-bold-web.woff2') format('woff2'),
-       url('../fonts/klima-bold-web.woff') format('woff'),
-       url('../fonts/klima-bold-web.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-bold-italic-web.eot');
-  src: url('../fonts/klima-bold-italic-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-bold-italic-web.svg#klimabold_italic') format('svg'),
-       url('../fonts/klima-bold-italic-web.woff2') format('woff2'),
-       url('../fonts/klima-bold-italic-web.woff') format('woff'),
-       url('../fonts/klima-bold-italic-web.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-heavy-web.eot');
-  src: url('../fonts/klima-heavy-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-heavy-web.svg#klimaheavy') format('svg'),
-       url('../fonts/klima-heavy-web.woff2') format('woff2'),
-       url('../fonts/klima-heavy-web.woff') format('woff'),
-       url('../fonts/klima-heavy-web.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: KlimaWeb;
-  src: url('../fonts/klima-heavy-italic-web.eot');
-  src: url('../fonts/klima-heavy-italic-web.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/klima-heavy-italic-web.svg#klimaheavy_italic') format('svg'),
-       url('../fonts/klima-heavy-italic-web.woff2') format('woff2'),
-       url('../fonts/klima-heavy-italic-web.woff') format('woff'),
-       url('../fonts/klima-heavy-italic-web.ttf') format('truetype');
-  font-weight: 800;
-  font-style: italic;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html {
-  background: #fff;
-  font: 15px/1.4 Helvetica Neue, Helvetica, sans-serif;
-  min-height: 100%;
-  overflow-y: scroll;
+html,
+body {
+  height: 100%;
 }
 
-html.wf-active {
-  font-family: KlimaWeb;
+html {
+  font-size: 14px;
 }
 
 body {
-  margin: 1rem;
+  background-color: #fff;
+  color: #333;
+  font: 1rem/1.3 -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a:link,
-a:visited {
-  color: #1F6DC2;
+html {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 3rem;
+}
+
+a {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
   text-decoration: none;
+  transition: border-bottom .15s ease-in-out, color .15s ease-in-out;
 }
 
-a:hover,
+a:link {
+  color: #07d;
+}
+
+a:visited {
+  color: #07d;
+}
+
 a:active {
-  color: #007AFF;
-  text-decoration: underline;
+  border-bottom-color: #fdb;
+  color: #f81;
+}
+
+a:hover {
+  color: #0ae;
+  border-bottom-color: #bdf;
 }
 
 code,
@@ -187,14 +58,9 @@ pre,
 tt,
 .code,
 .tt {
-  font-family: Consolas, Andale Mono, Monaco, Monaco,Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.wf-ocrbweb-n4-active code,
-.wf-ocrbweb-n4-active pre,
-.wf-ocrbweb-n4-active .code,
-.wf-ocrbweb-n4-active .tt {
-  font-family: OCR-B-web, Consolas, Andale Mono, Monaco, Monaco,Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Consolas, Andale Mono, Monaco,
+    Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .page-title {
@@ -202,14 +68,14 @@ tt,
 }
 
 a.wordmark {
+  border: 0;
   color: #29abe2;
   display: block;
   font-size: 4rem;
   font-size: calc(2.2rem + 3vw);
   font-weight: 100;
-  /*font-style: italic;*/
+  font-style: italic;
   padding: .5rem 0;
-  text-decoration: none;
   transition: .75s color ease-in-out, .75s text-shadow ease-in-out;
 }
 
@@ -235,8 +101,6 @@ a.wordmark:hover {
 }
 
 .external-links a {
-  /*color: #fb0649;*/
-  /*color: magenta;*/
   color: deeppink;
   display: block;
   padding: .25rem .5rem;
@@ -246,8 +110,6 @@ a.wordmark:hover {
 
 .external-links a:hover,
 .external-links a:active {
-  /*background-color: #fb0649;*/
-  /*background-color: magenta;*/
   background-color: deeppink;
   color: #fff;
 }
@@ -257,7 +119,6 @@ a.wordmark:hover {
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
-  line-height: 1.2;
   margin: 0 -1rem;
   overflow: hidden;
   padding: .4rem 1rem;
@@ -268,15 +129,16 @@ a.wordmark:hover {
 .article {
   line-height: 1.4;
   margin: 0 auto 1rem;
-  max-width: 510px;
-}
-
-.faq {
-  max-width: 510px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .article + .article {
   margin-top: 3rem;
+}
+
+.article.faq + .article.faq {
+  margin-top: 1.5rem;
 }
 
 .article:target > header,
@@ -285,6 +147,7 @@ a.wordmark:hover {
 }
 
 .feature > header {
+  background-color: #def;
   overflow: hidden;
   padding: 0 1rem;
 }
@@ -295,7 +158,11 @@ a.wordmark:hover {
 }
 
 .faq ul {
-  margin: 1.4rem 0 1.4rem 2rem;
+  margin: 1rem 0 1rem 2rem;
+}
+
+li + li {
+  margin-top: .25rem;
 }
 
 .article > header p a {
@@ -327,36 +194,34 @@ a.wordmark:hover {
 
 .results {
   display: flex;
-  background: #111;
+  background: #999;
 }
 
 :target .results {
-  background: #FFECA9;
+  background: #ffeca9;
 }
 
 .results .result {
-  -webkit-flex: 1;
   flex: 1;
 }
 
 .result {
-  margin: .4rem .4rem .4rem 0;
+  margin: 1px 1px 1px 0;
   overflow: hidden;
   position: relative;
 }
 
 .result:first-child {
-  margin-left: .4rem;
+  margin-left: 1px;
 }
 
 .result::after {
   content: '';
   display: block;
-  padding-top: 100%;
+  padding-top: 3rem;
 }
 
 .result.yes {
-  /*background: mediumaquamarine;*/
   background: #2ecc71;
 }
 
@@ -365,12 +230,13 @@ a.wordmark:hover {
 }
 
 .result.no {
-  background: #95a5A6;
+  background: #95a5a6;
 }
 
 .result.no .icon {
   -webkit-filter: grayscale(100%);
-  opacity: 0.2;
+  filter: grayscale(100%);
+  opacity: .2;
 }
 
 .result .support {
@@ -384,12 +250,12 @@ a.wordmark:hover {
 }
 
 .result .version {
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,.8);
   bottom: 0;
   color: #000;
-  font-size: .55rem;
+  font-size: .8rem;
   line-height: 1.2;
-  padding: .1rem .2rem;
+  padding: .3vw;
   position: absolute;
   right: 0;
   text-indent: 0;
@@ -411,8 +277,7 @@ a.wordmark:hover {
 .icon {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 78%;
-  margin: 0;
+  background-size: auto 75%;
 }
 
 .icon.chrome {
@@ -517,7 +382,7 @@ dt {
 }
 
 dt {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 @media (min-width: 500px) {
@@ -542,36 +407,6 @@ dt {
   .external-links {
     margin-bottom: 4.4rem;
   }
-
-  .feature {
-    -webkit-flex-flow: wrap;
-    -webkit-justify-content: flex-end;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: flex-end;
-    max-width: 947px;
-  }
-
-  .faq {
-    max-width: 947px;
-  }
-
-  .feature > header {
-    background: url(../img/dots.svg);
-    width: 35%;
-  }
-
-  .results {
-    width: 65%;
-  }
-
-  .result {
-    margin-top: .4rem;
-  }
-
-  .details {
-    width: 65%;
-  }
 }
 
 @media (min-width: 578px) {
@@ -590,20 +425,5 @@ dt {
     margin: 0 .75rem;
     position: relative;
     top: 1px;
-  }
-
-  .result .version {
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    bottom: 10%;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
-    display: flex;
-    height: 2rem;
-    justify-content: center;
-    padding: 0;
-    right: 10%;
-    width: 2rem;
   }
 }
